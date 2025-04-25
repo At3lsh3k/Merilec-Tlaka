@@ -16,7 +16,7 @@ void loop() {
   
   
   int vrednost = analogRead(senzor);
-  float tlakBar = ((6./ 790.) * vrednost); 
+  float tlakBar = ((6./ 790.) * vrednost); // križni račun
 
  
 
